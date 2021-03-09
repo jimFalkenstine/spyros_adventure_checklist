@@ -1,4 +1,26 @@
+/* * {
+  border: solid;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
 /* img {
   opacity: 0.25;
   display: block;
 } */
+
+h1 {
+  text-align: center;
+}
+.figure {
+  display: inline-block;
+  /* border: solid; */
+  margin: 10px;
+  text-align: center;
+}
+
+.figure {
+
+}
