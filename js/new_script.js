@@ -1,11 +1,11 @@
-const main = document.querySelector('main');
+const main = document.querySelector('#core_skylanders');
 let html = '';
 
-for ( let i = 0; i < characters.length; i++) {
-  let character = characters[i];
+for ( let i = 0; i < coreSkylanders.length; i++) {
+  let character = coreSkylanders[i];
   html += ` 
-    <h2>${character.name}</h2>
-	<h3>${character.element}</h3>
+    <h3>${character.name}</h3>
+	<h4>${character.element}</h4>
     <img src="${character.image}" alt="${character.name}">
   `;
 }

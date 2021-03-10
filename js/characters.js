@@ -67,7 +67,7 @@ const coreSkylanders = [
 	},
 	{
 		name: 'Cynder',
-		element: 'Undead'
+		element: 'Undead',
 		image: 'images/cynder.jpg'
 	},
 	{
@@ -162,7 +162,7 @@ const coreSkylanders = [
 	},
 ];
 
-const inGameVariants [
+const inGameVariants = [
     {
         name: 'Dark Spyro',
         element: 'Magic',
