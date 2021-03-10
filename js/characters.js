@@ -168,45 +168,45 @@ const inGameVariants = [
         element: 'Magic',
         image: 'images/dark_spyro.jpg'
     },
-    {
-        name: 'Legendary Bash',
-        element: 'Earth',
-        image: 'images/legendary_bash.jpg'
-    },
-    {
-        name: 'Legendary Chop Chop',
-        element: 'Undead',
-        image: 'images/legendary_chop_chop.jpg'
-    },
-    {
+	{
         name: 'Legendary Spyro',
         element: 'Magic',
         image: 'images/legendary_spyro.jpg'
     },
-    {
+	{
+        name: 'Legendary Bash',
+        element: 'Earth',
+        image: 'images/legendary_bash.jpg'
+    },
+	{
+        name: 'Legendary Chop Chop',
+        element: 'Undead',
+        image: 'images/legendary_chop_chop.jpg'
+    },
+	{
         name: 'Legendary Trigger Happy',
         element: 'Tech',
         image: 'images/legendary_trigger_happy.jpg'
     },
-    {
+	{
         name: 'Sidekick Gill Runt',
         element: 'Water',
-        image: 'images/sidekick_gill_runt.jpg'
+        image: 'images/gill_runt.jpg'
     },
     {
         name: 'Sidekick Terrabite',
         element: 'Earth',
-        image: 'images/sidekick_terrabite.jpg'
+        image: 'images/terrabite.jpg'
     },
     {
         name: 'Sidekick Trigger Snappy',
         element: 'Tech',
-        image: 'images/sidekick_trigger_snappy.jpg'
+        image: 'images/trigger_snappy.jpg'
     },
     {
         name: 'Sidekick Whisper Elf',
         element: 'Life',
-        image: 'images/sidekick_whisper_elf.jpg'
+        image: 'images/whisper_elf.jpg'
     },
 ]
 
