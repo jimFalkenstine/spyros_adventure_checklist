@@ -6,9 +6,11 @@ function populateCoreSkylanders () {
   for ( let i = 0; i < coreSkylanders.length; i++) {
     let character = coreSkylanders[i];
     html += ` 
+      <div class='figure'>
       <h3>${character.name}</h3>
     <h4>${character.element}</h4>
       <img src="${character.image}" alt="${character.name}">
+      </div>
     `;
   }
   

@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+header {
+  background-color: deepskyblue;
+  color: white;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
 /* img {
   opacity: 0.25;
   display: block;
@@ -14,13 +24,17 @@
 h1 {
   text-align: center;
 }
-.figure {
-  display: inline-block;
-  /* border: solid; */
-  margin: 10px;
-  text-align: center;
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }
 
-.figure {
-
+#core_skylanders {
+  display: flex;
+  flex-direction: column;
 }
+
+/* Media Queries */
+@media  
