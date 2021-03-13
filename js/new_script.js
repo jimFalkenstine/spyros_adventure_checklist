@@ -7,8 +7,6 @@ function populateCoreSkylanders () {
     let character = coreSkylanders[i];
     html += ` 
       <div class='figure'>
-      <h3>${character.name}</h3>
-    <h4>${character.element}</h4>
       <img src="${character.image}" alt="${character.name}">
       </div>
     `;
@@ -23,10 +21,10 @@ function populateInGameVariants () {
   
   for ( let i = 0; i < inGameVariants.length; i++) {
     let character = inGameVariants[i];
-    html += ` 
-      <h3>${character.name}</h3>
-    <h4>${character.element}</h4>
+    html += `
+      <div class='figure'>
       <img src="${character.image}" alt="${character.name}">
+      </div>
     `;
   }
   
@@ -39,9 +37,10 @@ function populateMagicItems () {
   
   for ( let i = 0; i < magicItems.length; i++) {
     let character = magicItems[i];
-    html += ` 
-      <h3>${character.name}</h3>
+    html += `
+      <div class='figure'>
       <img src="${character.image}" alt="${character.name}">
+      </div>
     `;
   }
   
