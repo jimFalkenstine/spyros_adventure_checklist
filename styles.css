@@ -38,14 +38,22 @@
   border-bottom-color: #52bab3;
 }
 
-/* img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; */
-
+h2,
 h3,
 h4 {
   text-align: center;
+}
+.figure {
+  margin: 10px;
+}
+
+img {
+  border-radius: 10px;
+  opacity: 50%;
+}
+
+img:hover {
+  opacity: 100%;
 }
 
 #core_skylanders,
@@ -70,6 +78,20 @@ h4 {
   .nav a {
     border-bottom-color: transparent;
   }
+
+h2,
+h3,
+h4 {
+  text-align: left;
+}
+
+#core_skylanders,
+#in-game_variants, 
+#magic_items { 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 
 @media (min-width: 1025px) {
 

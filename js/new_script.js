@@ -47,10 +47,6 @@ function populateMagicItems () {
   main.insertAdjacentHTML('beforeend', html);
 }
 
-
-
 populateCoreSkylanders();
 populateInGameVariants();
 populateMagicItems();
-
-
