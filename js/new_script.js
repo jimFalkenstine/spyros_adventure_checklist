@@ -8,6 +8,7 @@ function populateCoreSkylanders () {
     html += ` 
       <div class='figure'>
       <img src="${character.image}" alt="${character.name}">
+      <p>${character.name}<p>
       </div>
     `;
   }
@@ -24,6 +25,7 @@ function populateInGameVariants () {
     html += `
       <div class='figure'>
       <img src="${character.image}" alt="${character.name}">
+      <p>${character.name}<p>
       </div>
     `;
   }
@@ -40,6 +42,7 @@ function populateMagicItems () {
     html += `
       <div class='figure'>
       <img src="${character.image}" alt="${character.name}">
+      <p>${character.name}<p>
       </div>
     `;
   }

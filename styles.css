@@ -43,6 +43,12 @@ h3,
 h4 {
   text-align: center;
 }
+
+.figure p {
+  font-weight: bold;
+  text-align: center;
+}
+
 .figure {
   margin: 10px;
 }
@@ -78,19 +84,19 @@ img:hover {
   .nav a {
     border-bottom-color: transparent;
   }
-
-h2,
-h3,
-h4 {
-  text-align: left;
-}
-
+  
 #core_skylanders,
 #in-game_variants, 
 #magic_items { 
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+#magic_items {
+  max-width: 768px;
+  margin: auto;
+}
+
 
 
 @media (min-width: 1025px) {
@@ -103,4 +109,10 @@ h4 {
     margin-left: .65em;
     margin-right: .65em;
   }
+}
+
+#core_skylanders,
+#in-game_variants {
+  max-width: 1025px;
+  margin: auto;
 }
