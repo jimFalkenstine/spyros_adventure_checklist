@@ -1,187 +1,151 @@
 const coreSkylanders = [
-	{
-		name: 'Spyro',
-		element: 'Magic',
-		image: 'images/spyro.jpg.'
-	},
-	{
-		name: 'Double Trouble',
-		element: 'Magic',
-		image: 'images/double_trouble.jpg'
-	},
-	{
-		name: 'Wrecking Ball',
-		element: 'Magic',
-		image: 'images/wrecking_ball.jpg'
-	},
-	{
-		name: 'Voodood',
-		element: 'Magic',
-		image: 'images/voodood.jpg'
-	},
-	{
-		name: 'Slam Bam',
-		element: 'Water',
-		image: 'images/slam_bam.jpg'
-	},
-	{
-		name: 'Zap',
-		element: 'Water',
-		image: 'images/zap.jpg'
-	},
-	{
-		name: 'Wham-Shell',
-		element: 'Water',
-		image: 'images/wham-shell.jpg'
-	},
-	{
-		name: 'Gill Grunt',
-		element: 'Water',
-		image: 'images/gill_grunt.jpg'
-	},
-	{
-		name: 'Bash',
-		element: 'Earth',
-		image: 'images/bash.jpg'
-	},
-	
-	{
-		name: 'Dino-Rang',
-		element: 'Earth',
-		image: 'images/dino-rang.jpg'
-	},
-	{
-		name: 'Prism Break',
-		element: 'Earth',
-		image: 'images/prism_break.jpg'
-	},
-	{
-		name: 'Terrafin',
-		element: 'Earth',
-		image: 'images/terrafin.jpg'
-	},
-	{
-		name: 'Hex',
-		element: 'Undead',
-		image: 'images/hex.jpg'
-	},
-	{
-		name: 'Cynder',
-		element: 'Undead',
-		image: 'images/cynder.jpg'
-	},
-	{
-		name: 'Ghost Roaster',
-		element: 'Undead',
-		image: 'images/ghost_roaster.jpg'
-	},
-	{
-		name: 'Chop Chop',
-		element: 'Undead',
-		image: 'images/chop_chop.jpg'
-	},
-	{
-		name: 'Ignitor',
-		element: 'Fire',
-		image: 'images/ignitor.jpg'
-	},
-	{
-		name: 'Sunburn',
-		element: 'Fire',
-		image: 'images/sunburn.jpg'
-	},
-	{
-		name: 'Flameslinger',
-		element: 'Fire',
-		image: 'images/flameslinger.jpg'
-	},
-	{
-		name: 'Eruptor',
-		element: 'Fire',
-		image: 'images/eruptor.jpg'
-	},
-	{
-		name: 'Whirlwind',
-		element: 'Air',
-		image: 'images/whirlwind.jpg'
-	},
-	{
-		name: 'Warnado',
-		element: 'Air',
-		image: 'images/warnado.jpg'
-	},
-	{
-		name: 'Sonic Boom',
-		element: 'Air',
-		image: 'images/sonic_boom.jpg'
-	},
-	{
-		name: 'Lightning Rod',
-		element: 'Air',
-		image: 'images/lightning_rod.jpg'
-	},
-	{
+    {
+        name: 'Bash',
+        image: 'images/bash.jpg'   
+    },
+    {
 		name: 'Boomer',
-		element: 'Tech',
 		image: 'images/boomer.jpg'
 	},
-	{
-		name: 'Drill Sergeant',
-		element: 'Tech',
-		image: 'images/drill_sergeant.jpg'
-	},
-	{
-		name: 'Trigger Happy',
-		element: 'Tech',
-		image: 'images/trigger_happy.jpg'
-	},
-	{
-		name: 'Drobot',
-		element: 'Tech',
-		image: 'images/drobot.jpg'
-	},
-	{
+    {
 		name: 'Camo',
-		element: 'Life',
 		image: 'images/camo.jpg'
 	},
-	{
-		name: 'Stump Smash',
-		element: 'Life',
-		image: 'images/stump_smash.jpg'
+    {
+		name: 'Chop Chop',
+		image: 'images/chop_chop.jpg'
 	},
-	{
-		name: 'Zook',
-		element: 'Life',
-		image: 'images/zook.jpg'
+    {
+		name: 'Cynder',
+		image: 'images/cynder.jpg'
 	},
-	{
+    {
+		name: 'Dino-Rang',
+		image: 'images/dino-rang.jpg'
+	},
+    {
+		name: 'Double Trouble',
+		image: 'images/double_trouble.jpg'
+	},
+    {
+		name: 'Drill Sergeant',
+		image: 'images/drill_sergeant.jpg'
+	},
+    {
+		name: 'Drobot',
+		image: 'images/drobot.jpg'
+	},
+    {
+		name: 'Eruptor',
+		image: 'images/eruptor.jpg'
+	},
+    {
+		name: 'Flameslinger',
+		image: 'images/flameslinger.jpg'
+	},
+    {
+		name: 'Ghost Roaster',
+		image: 'images/ghost_roaster.jpg'
+	},
+    {
+		name: 'Gill Grunt',
+		image: 'images/gill_grunt.jpg'
+	},
+    {
+		name: 'Hex',
+		image: 'images/hex.jpg'
+	},
+    {
+		name: 'Ignitor',
+		image: 'images/ignitor.jpg'
+	},
+    {
+		name: 'Lightning Rod',
+		image: 'images/lightning_rod.jpg'
+	},
+    {
+		name: 'Prism Break',
+		image: 'images/prism_break.jpg'
+	},
+    {
+		name: 'Slam Bam',
+		image: 'images/slam_bam.jpg'
+	},
+    {
+		name: 'Sonic Boom',
+		image: 'images/sonic_boom.jpg'
+	},
+    {
+		name: 'Spyro',
+		image: 'images/spyro.jpg.'
+	},
+    {
 		name: 'Stealth Elf',
-		element: 'Life',
 		image: 'images/stealth_elf.jpg'
 	},
-];
+    {
+		name: 'Stump Smash',
+		image: 'images/stump_smash.jpg'
+	},
+    {
+		name: 'Sunburn',
+		image: 'images/sunburn.jpg'
+	},
+    {
+		name: 'Terrafin',
+		image: 'images/terrafin.jpg'
+	},
+    {
+		name: 'Trigger Happy',
+		image: 'images/trigger_happy.jpg'
+	},
+    {
+		name: 'Voodood',
+		image: 'images/voodood.jpg'
+	},
+    {
+		name: 'Warnado',
+		image: 'images/warnado.jpg'
+	},
+    {
+		name: 'Wham-Shell',
+		image: 'images/wham-shell.jpg'
+	},
+    {
+		name: 'Whirlwind',
+		image: 'images/whirlwind.jpg'
+	},
+    {
+		name: 'Wrecking Ball',
+		image: 'images/wrecking_ball.jpg'
+	},
+    {
+		name: 'Zap',
+		image: 'images/zap.jpg'
+	},
+    {
+		name: 'Zook',
+		image: 'images/zook.jpg'
+	}
+]
 
 const inGameVariants = [
     {
         name: 'Dark Spyro',
-        element: 'Magic',
         image: 'images/dark_spyro.jpg'
+    },
+	{
+        name: 'Legendary Bash',
+        image: 'images/legendary_bash.jpg'
+    },
+	{
+        name: 'Legendary Chop Chop',
+        image: 'images/legendary_chop_chop.jpg'
     },
 	{
         name: 'Legendary Spyro',
         element: 'Magic',
         image: 'images/legendary_spyro.jpg'
-    },
-	{
-        name: 'Legendary Bash',
-        element: 'Earth',
-        image: 'images/legendary_bash.jpg'
-    },
-	{
-        name: 'Legendary Chop Chop',
-        element: 'Undead',
-        image: 'images/legendary_chop_chop.jpg'
     },
 	{
         name: 'Legendary Trigger Happy',

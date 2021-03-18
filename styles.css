@@ -1,14 +1,11 @@
-/* * {
-  border: solid;
-} */
-
-* {
-  box-sizing: border-box;
-}
 
 /* --------------------------
   Main Styles
 --------------------------- */
+* {
+  box-sizing: border-box;
+}
+
 .main-header {
   text-align: center;
 }
@@ -31,6 +28,7 @@
   text-align: center;
   padding: .4em;
   border-bottom: 1px solid #ebecec;
+  text-decoration: none;
 }
 
 .nav a:hover {
@@ -44,13 +42,17 @@ h4 {
   text-align: center;
 }
 
-.figure p {
-  font-weight: bold;
+.figure {
+  margin: 10px;
+  color: gray;
   text-align: center;
 }
 
-.figure {
-  margin: 10px;
+.figure:hover {
+  /* border: 1px solid;
+  border-radius: 10px; */
+  font-weight: bold;
+  color: black;
 }
 
 img {
@@ -81,23 +83,24 @@ img:hover {
     flex-direction: row;
     justify-content: space-between;
   }
+
   .nav a {
     border-bottom-color: transparent;
   }
   
-#core_skylanders,
-#in-game_variants, 
-#magic_items { 
-  flex-direction: row;
-  flex-wrap: wrap;
+  #core_skylanders,
+  #in-game_variants, 
+  #magic_items { 
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #magic_items {
+    max-width: 768px;
+    margin: auto;
+  }
+
 }
-
-#magic_items {
-  max-width: 768px;
-  margin: auto;
-}
-
-
 
 @media (min-width: 1025px) {
 
@@ -105,14 +108,18 @@ img:hover {
     margin-top: 0;
     align-self: center;
   }
+
   .nav li {
     margin-left: .65em;
     margin-right: .65em;
   }
+
+  #core_skylanders,
+  #in-game_variants {
+    max-width: 1025px;
+    margin: auto;
+  }
+
 }
 
-#core_skylanders,
-#in-game_variants {
-  max-width: 1025px;
-  margin: auto;
-}
+

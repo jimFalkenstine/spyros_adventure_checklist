@@ -5,11 +5,14 @@ function populateCoreSkylanders () {
   
   for ( let i = 0; i < coreSkylanders.length; i++) {
     let character = coreSkylanders[i];
-    html += ` 
-      <div class='figure'>
-      <img src="${character.image}" alt="${character.name}">
-      <p>${character.name}<p>
-      </div>
+    html += `  
+        <div class='figure'>
+          <img src="${character.image}" alt="${character.name}">
+          <form>
+            <input type="checkbox" id="${character.name}" name="${character.name}" value="${character.name}">
+            <label for="${character.name}">${character.name}</label>
+          </form>
+        </div>
     `;
   }
   
@@ -25,7 +28,10 @@ function populateInGameVariants () {
     html += `
       <div class='figure'>
       <img src="${character.image}" alt="${character.name}">
-      <p>${character.name}<p>
+      <form>
+            <input type="checkbox" id="${character.name}" name="${character.name}" value="${character.name}">
+            <label for="${character.name}">${character.name}</label>
+          </form>
       </div>
     `;
   }
@@ -42,7 +48,10 @@ function populateMagicItems () {
     html += `
       <div class='figure'>
       <img src="${character.image}" alt="${character.name}">
-      <p>${character.name}<p>
+      <form>
+            <input type="checkbox" id="${character.name}" name="${character.name}" value="${character.name}">
+            <label for="${character.name}">${character.name}</label>
+          </form>
       </div>
     `;
   }
