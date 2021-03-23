@@ -44,24 +44,13 @@ h4 {
 
 .figure {
   margin: 10px;
-  color: gray;
+  border-radius: 10px;
   text-align: center;
-}
-
-.figure:hover {
-  /* border: 1px solid;
-  border-radius: 10px; */
-  font-weight: bold;
-  color: black;
+  opacity: 50%;
 }
 
 img {
   border-radius: 10px;
-  opacity: 50%;
-}
-
-img:hover {
-  opacity: 100%;
 }
 
 #core_skylanders,
