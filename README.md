@@ -1,9 +1,9 @@
 # spyros_adventure_checklist
-<h1>Skylanders Spyro's Adventure Checklist</h1>
-<p>A checklist to keep track of figures from the Skylanders: Spyro's Adventure video game.</p>
+<h1>Skylanders: Spyro's Adventure Checklist</h1>
+<p>A web-based checklist to keep track of figures from the Skylanders: Spyro's Adventure video game.</p>
 
 <h2>Intro</h2>
-<p>My project is an interactive web based checklist for collectors of figures related to the Skylanders: Spyro’s Adventure video game.  The checklist is divided into three main sections: Core Skylanders, In-Game Variants, and Magic Items.  When the checklist is loaded, an image of each figure is shown at 50% opacity.  Underneath each image is the name of the figure and a checkbox displayed in gray.  When a figure’s checkbox is clicked/checked, the figure’s image is displayed at 100% opacity and a message is displayed stating the user owns that figure.  When the checkbox is clicked again/unchecked, the figure’s image returns to 50% opacity and the message is hidden.</p>
+<p>This is my Final Project for Code Louisville's January 2021 Front End Web Development Session.  For my project, I chose to create an interactive web-based checklist for collectors of figures related to the Skylanders: Spyro’s Adventure video game.  The checklist is divided into three main sections: Core Skylanders, In-Game Variants, and Magic Items.  When the checklist is loaded, an image of each figure is shown at 50% opacity.  Underneath each image is the name of the figure and a checkbox displayed in gray.  When a figure’s checkbox is clicked/checked, the figure’s image is displayed at 100% opacity and a message is displayed in bold stating the user owns that figure.  When the checkbox is clicked again/unchecked, the figure’s image returns to 50% opacity and the message is hidden.</p>
 
 <h2>CSS Feature #1</h2>
 <p>I created a responsive navigation menu using Flexbox.  At screen sizes smaller than 768 pixels, the navigation menu has a flex-direction of column and is displayed vertically.  At 768 pixels, I created a media query that changes the flex-direction of the menu to row and justify content to space-between.</p>
