@@ -9,7 +9,7 @@ function populateCoreSkylanders () {
         <div class = "figure" id="${character.name}_div"}>
           <img src="${character.image}" alt="${character.name}">
           <form>
-            <input type="checkbox" id="${character.name}" name="${character.name}" value="${character.name}" onclick="myFunction(${character.index})">
+            <input type="checkbox" id="${character.name}" name="${character.name}" value="${character.name}" onclick="addFigure(${character.index})">
             <label for="${character.name}">${character.name}</label>
           </form>
           <p class="figure_text" style="display:none">You have ${character.name}!</p>
@@ -30,7 +30,7 @@ function populateInGameVariants () {
       <div class='figure'>
       <img src="${character.image}" alt="${character.name}">
       <form>
-            <input type="checkbox" id="${character.name}" name="${character.name}" value="${character.name}" onclick="myFunction(${character.index})">
+            <input type="checkbox" id="${character.name}" name="${character.name}" value="${character.name}" onclick="addFigure(${character.index})">
             <label for="${character.name}">${character.name}</label>
           </form>
           <p class="figure_text" style="display:none">You have ${character.name}!</p>
@@ -51,7 +51,7 @@ function populateMagicItems () {
       <div class='figure'>
       <img src="${character.image}" alt="${character.name}">
       <form>
-            <input type="checkbox" id="${character.name}" name="${character.name}" value="${character.name}" onclick="myFunction(${character.index})">
+            <input type="checkbox" id="${character.name}" name="${character.name}" value="${character.name}" onclick="addFigure(${character.index})">
             <label for="${character.name}">${character.name}</label>
           </form>
           <p class="figure_text" style="display:none">You have ${character.name}!</p>
@@ -62,7 +62,7 @@ function populateMagicItems () {
   main.insertAdjacentHTML('beforeend', html);
 }
 
-function myFunction (index) {
+function addFigure(index) {
   const checkBox = document.querySelectorAll('input')[index];
   const text = document.querySelectorAll('.figure_text')[index];
   const figure = document.querySelectorAll('.figure')[index];
