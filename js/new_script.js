@@ -82,7 +82,6 @@ function addFigure(index) {
 	figure.style.boxShadow = "none";
 	figure.style.border = "none";
 	figure.style.backgroundColor = "#eeeeee";
-	
   }
 }
 
