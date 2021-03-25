@@ -8,6 +8,14 @@
 
 .main-header {
   text-align: center;
+  color: #000000;
+}
+
+body {
+	/* background-color: #f7e5ff; */
+	background-color: #eeeeee;
+	background-color: #3d88c2;
+	color: #000000;
 }
 
 .nav {
@@ -22,18 +30,24 @@
 
 .nav a {
   display: block;
-  color: #797e83;
+  color: #000000;
   font-size: 1.125em;
   font-weight: 300;
   text-align: center;
   padding: .4em;
   border-bottom: 1px solid #ebecec;
   text-decoration: none;
+  background-color: #f7e5ff;
+  border-radius: 10px;
+  margin-bottom: 1px;
 }
 
 .nav a:hover {
-  color: #0b0b0b;
-  border-bottom-color: #52bab3;
+  /* color: #0b0b0b; */
+  /* border-bottom-color: #52bab3; */
+  background-color: #eeeeee;
+  font-weight: bold;
+  
 }
 
 h2,
@@ -47,10 +61,16 @@ h4 {
   border-radius: 10px;
   text-align: center;
   opacity: 50%;
+  border: 1px solid #eeeeee;
+  background-color: #eeeeee;
 }
 
 img {
   border-radius: 10px;
+}
+.content_header {
+	border-radius: 10px;
+	background-color: #f7e5ff;
 }
 
 #core_skylanders,
@@ -59,6 +79,8 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #eeeeee;
+  border-radius: 10px;
 }
 
 /* --------------------------
