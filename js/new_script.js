@@ -54,7 +54,7 @@ function populateMagicItems () {
             <input type="checkbox" id="${character.name}" name="${character.name}" value="${character.name}" onclick="addFigure(${character.index})">
             <label for="${character.name}">${character.name}</label>
           </form>
-          <p class="figure_text" style="display:none">You have ${character.name}!</p>
+          <p class="figure_text" style="display:none">You have<br> ${character.name}!</p>
       </div>
     `;
   }
@@ -69,19 +69,19 @@ function addFigure(index) {
 
   if (checkBox.checked == true) {
     text.style.display = "block";
-	text.style.color = "#000000";
+	  text.style.color = "#000000";
     figure.style.backgroundColor = "#c9b39c";
-	figure.style.opacity= "1";
+	  figure.style.opacity= "1";
     figure.style.fontWeight = "bold";
-	figure.style.boxShadow = "10px 10px 5px #000000";
-	figure.style.border = "1px solid #c9b39c";
+	  figure.style.boxShadow = "10px 10px 5px #000000";
+	  figure.style.border = "1px solid #c9b39c";
   } else {
     text.style.display ="none";
     figure.style.opacity = "0.5";
     figure.style.fontWeight = "normal";
-	figure.style.boxShadow = "none";
-	figure.style.border = "none";
-	figure.style.backgroundColor = "#eeeeee";
+	  figure.style.boxShadow = "none";
+  	figure.style.border = "none";
+	  figure.style.backgroundColor = "#eeeeee";
   }
 }
 

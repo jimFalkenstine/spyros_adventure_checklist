@@ -12,6 +12,7 @@
 }
 
 body {
+  font-family: 'Russo One', sans-serif;
 	background-color: #3d88c2;
 	color: #000000;
 }
@@ -98,10 +99,6 @@ img {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-  }
-
-  .figure {
-    margin: 7.5px;
   }
 
   #magic_items,
