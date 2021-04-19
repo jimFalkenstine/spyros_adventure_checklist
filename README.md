@@ -21,7 +21,7 @@
 <p>I created 3 JavaScript For Loops to dynamically add HTML to my web page.  Each for loop iterates over one of the three JavaScript Objects I created.</p>
 
 <h2>JavaScript Feature #4</h2>
-<p>I created twelve JavaScript Variables.  Nine variables were used in my three JavaScript functions to dynamically add HTML Content.  I used three variables in creating the JavaScript function involving functionality related each figure’s checkbox.</p>  
+<p>I created twelve JavaScript Variables.  Nine variables were used in my three JavaScript functions to dynamically add HTML content.  I used three variables in creating the JavaScript function related to each figure’s checkbox.</p>  
 
 <h2>JavaScript Feature #5</h2>
 <p>When the user clicks/checks the checkbox next to the name of a figure, a hidden message box is shown stating the user owns the figure.  The message box is hidden again if the checkbox is clicked again/unchecked.</p>
